@@ -1,0 +1,95 @@
+body {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: inherit;
+}
+
+header .header_contents {
+    height: 50px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#main_logo {
+    float: left;
+}
+
+.logo_box {
+    width: 200px;
+    float: left;
+}
+
+.page_title {
+    float: left;
+    width:auto;
+    overflow: hidden;
+    height: 50px;
+}
+#page_title_character{
+    font-size: 20px;
+    font-family: serif;
+    margin: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+#nav {
+    float: left;
+    width: 100%;
+}
+
+.nav_list {
+    list-style-type: none;
+    float: left;
+    padding-left: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.nav_list li {
+    height: 30px;
+    box-sizing: border-box;
+    border-bottom: dotted 1px;
+    width: 100%;
+}
+
+.main_content {
+    overflow: hidden;
+    width: auto;
+    float: left;
+   
+}
+
+.paragraph {
+    min-width: 300px;
+    min-height: 100px;
+}
+
+#news {}
+
+.slide{
+    max-width: 500px;
+}
+
+#footer {
+    clear: left;
+    width: 100%;
+    background-color: #D0D0D0;
+}
+
+footer {
+    text-align: center;
+}
