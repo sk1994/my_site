@@ -14,9 +14,9 @@ a:hover { color: red; }
 
 .nav-wrap { 
     width: 800px;
-	margin:auto; 
+	margin-top:10px; 
 	background-color: rgba(0,0,0,0.6); 
-	border-top:    2px solid white; 
+	border-top:    2px solid brown; 
 	border-bottom: 2px solid white; 
 }
 

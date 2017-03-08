@@ -2,55 +2,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/jquery.bxslider.css">
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <title>Satoru Kobayashi</title>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/part_load.js"></script>
-    <script src='js/jquery.color-RGBa-patch.js'></script>
-    <script src="js/magicline.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/part_load.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.bxslider').bxSlider();
+            $('.bxslider').bxSlider({
+                slideWidth: 600
+            });
         });
     </script>
 </head>
 
 <body>
-    <div id="header"></div>
-    <div class="container">
-        <div class="nav-wrap">
-            <ul class="group" id="example-one">
-                <li class="current_page_item"><a href="#">Home</a></li>
-                <li><a href="./links.html">Links</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="main_content">
-            <section id="now" class="paragraph">
-                <h1>今やっていること</h1>
-                <ul>
-                    <li>EASIROC test</li>
-                    <li>HBU boardの性能評価</li>
-                    <li>授業用CRカウンターの作成</li>
-                </ul>
-            </section>
-            <section id="news" class="paragraph">
-                <h1>最新情報</h1> </section>
-            <div class="slide">
-                <ul class="bxslider">
-                    <li><img src="images/IMG_0974.JPG"></li>
-                    <li><img src="images/IMG_1136.JPG"></li>
-                </ul>
+    <div id="main">
+        <div id="header"></div>
+        <div class="container">
+            <div id="nav"></div>
+            <div class="main_content">
+                <div class="slide">
+                    <ul class="bxslider">
+                        <li><img src="images/IMG_0974.JPG"></li>
+                        <li><img src="images/IMG_1136.JPG"></li>
+                    </ul>
+                </div>
+                <section id="now" class="paragraph">
+                    <h1>今やっていること</h1>
+                    <ul>
+                        <li>EASIROC test</li>
+                        <li>HBU boardの性能評価</li>
+                        <li>授業用CRカウンターの作成</li>
+                    </ul>
+                </section>
+                <section id="news" class="paragraph">
+                    <h1>最新情報</h1> </section>
             </div>
         </div>
+        <div id="footer"></div>
     </div>
-    <div id="footer"></div>
 </body>
 
 </html>
