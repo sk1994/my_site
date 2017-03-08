@@ -2,7 +2,9 @@ body {
     font-size: 14px;
     font-family: Verdana, sans-serif;
     color: #333;
-    background-color:black;
+    background-image: url(../images/IMG_1102.JPG);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a {
@@ -13,6 +15,14 @@ a {
     background-color: white;
     width: 800px;
     margin: 0 auto;
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+#main:hover{
+    filter:alpha(opacity=100);
+    -moz-opacity: 1.0;
+    opacity: 1.0;
 }
 
 header {
@@ -49,7 +59,9 @@ header .header_contents {
 .container {
 
 }
-
+#link {
+    color: black;
+}
 
 #nav {
     float: left;
